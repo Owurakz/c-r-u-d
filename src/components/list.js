@@ -10,7 +10,7 @@ const List = (props) => {
           {props.students.map((student) => {
             return (
               <div key={student.id}>
-                <Col>
+                <Col className="yabba">
                   <Item
                     student={student}
                     deleteStudents={props.deleteStudents}
